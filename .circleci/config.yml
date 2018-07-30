@@ -14,4 +14,8 @@ jobs:
       - run:
           command: |
             . myenv/bin/activate
-            python scrip.py
+            python scrip.py participants.tsv
+      - run:
+          command: |
+            . myenv/bin/activate
+            python scrip.py participants2.tsv
