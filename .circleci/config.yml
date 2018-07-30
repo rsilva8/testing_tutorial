@@ -14,4 +14,4 @@ jobs:
       - run:
           command: |
             . myenv/bin/activate
-            python demean_age.py
+            python scrip.py
